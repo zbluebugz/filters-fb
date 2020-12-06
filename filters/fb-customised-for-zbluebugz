@@ -17,7 +17,7 @@ facebook.com###facebook div[data-pagelet="VideoChatHomeUnit"]
 ! stories
 facebook.com##div[aria-label="Stories"]
 !
-! right hand column (no contacts)
+! right hand column (no contacts); collapses column and make middle column wider
 facebook.com##div[role="complementary"]
 !
 ! groups - invite other people.
