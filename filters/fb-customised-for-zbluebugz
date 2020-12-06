@@ -17,6 +17,9 @@ facebook.com###facebook div[data-pagelet="VideoChatHomeUnit"]
 ! stories
 facebook.com##div[aria-label="Stories"]
 !
+! right hand column (no contacts)
+facebook.com##div[role="complementary"]
+!
 ! groups - invite other people.
 !facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div)
 !
