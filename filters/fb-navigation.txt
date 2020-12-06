@@ -1,4 +1,4 @@
-! Title: filters-fb - Left side navigation panel
+! Title: filters-fb - Side menus
 ! Description: Block FB various menu options in the left-side navigation panel
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/zbluebugz/filters-fb
