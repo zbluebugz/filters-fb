@@ -1,5 +1,5 @@
 ! Title: filters-fb - Side menus
-! Description: Block FB various menu options in the left-side navigation panel
+! Description: Block FB various menu options in the left-side navigation panel and top menu bar.
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
@@ -12,7 +12,7 @@
 !
 ! Hides all, except for: <name>, Most Recent, Groups, Pages, Weather 
 !
-! fb - left side navigation
+! Left side navigation
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/covid/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/friend/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/marketplace/i)
@@ -33,3 +33,7 @@ facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:n
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/offers/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/ads/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/recent ad activity/i)
+!
+! Top menu bar: video/watch, marketplace
+facebook.com##div[role="banner"] [aria-label="Watch"]:upward(li)
+facebook.com##div[role="banner"] [aria-label="Marketplace"]:upward(li)
