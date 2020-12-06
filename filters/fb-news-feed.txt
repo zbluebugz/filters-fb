@@ -4,6 +4,8 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
+! Last updated: 06/12/2020
+!
 ! Legal stuff (T&C's) 
 ! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
