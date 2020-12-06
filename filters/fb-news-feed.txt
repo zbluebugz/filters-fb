@@ -1,0 +1,23 @@
+! Title: filters-fb - News feed list
+! Description: Block FB Sponsored posts, Paid for by posts
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/zbluebugz/filters-fb
+! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
+!
+! Legal stuff (T&C's) 
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! news feed: sponsored 
+!- need both rules (fb sometimes insert an extra span ...)
+facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+!
+! news feed: people you may know
+facebook.com###facebook div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
+!
+! news feed: videos just for you 
+facebook.com###facebook div[role="feed"] div > span:has-text(/Videos just for you/i):upward(div[role="feed"] > div)
+!
+! news feed: suggested for you  
+facebook.com###facebook div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
