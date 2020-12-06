@@ -1,5 +1,5 @@
 ! Title: filters-fb - News feed list
-! Description: Block FB Sponsored posts, Paid for by posts
+! Description: Block certain items in the New feed and Right hand column
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
@@ -23,3 +23,6 @@ facebook.com###facebook div[role="feed"] div > span:has-text(/Videos just for yo
 !
 ! news feed: suggested for you  
 facebook.com###facebook div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
+!
+! right-hand column: sponsored
+facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
