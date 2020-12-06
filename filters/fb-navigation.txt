@@ -1,0 +1,35 @@
+! Title: filters-fb - Left side navigation panel
+! Description: Block FB various menu options in the left-side navigation panel
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/zbluebugz/filters-fb
+! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
+!
+! Last updated: 06/12/2020
+!
+! Legal stuff (T&C's) 
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! Hides all, except for: <name>, Most Recent, Groups, Pages, Weather 
+!
+! fb - left side navigation
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/covid/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/friend/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/marketplace/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/videos/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/events/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/memories/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/saved/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/crisis/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/facebook/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/favourites/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/favorites/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/fundraise/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/games/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/gaming/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/jobs/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/messenger/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/oculus/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/offers/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/ads/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/recent ad activity/i)
