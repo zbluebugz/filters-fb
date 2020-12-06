@@ -1,0 +1,30 @@
+! Title: filters-fb - Extras for zbluebugz
+! Description: Block certain elements in FB, for zbluebugz's usage.
+!              Used for keeping My Rules clean / free of FB filters
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/zbluebugz/filters-fb
+! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
+!
+! Last updated: 06/12/2020
+!
+! Legal stuff (T&C's) 
+! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! news feed: rooms (video chat with friends)
+facebook.com###facebook div[data-pagelet="VideoChatHomeUnit"]
+!
+! stories
+facebook.com##div[aria-label="Stories"]
+!
+! groups - invite other people.
+facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div):style(border:2px solid orange)
+!
+! news feed; post's main text (above picture); block out posts with certain keywords
+facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > span:has-text(/varadkar|tubridy|late late|transgender/i):upward(div[role="feed"] > div)
+!
+! news feed; post article text (below picture); does not hide comments; block out posts with certain keywords
+facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div > a > div > div > div > div:nth-of-type(2) > div > div span:has-text(/Varadkar|Late Late|tubridy/i):upward(div[role="feed"] > div)
+
+
+  
