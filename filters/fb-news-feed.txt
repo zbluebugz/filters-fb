@@ -4,7 +4,8 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
-! Last updated: 06/12/2020
+! Last modified: 06 Dec 2020 21:00 UTC
+! Expires: 3 days (update frequency)
 !
 ! Legal stuff (T&C's) 
 ! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
