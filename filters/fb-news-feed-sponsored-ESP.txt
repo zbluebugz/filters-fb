@@ -1,0 +1,18 @@
+! Title: filters-fb - News feed - Patrocinado - Español
+! Description: Block sponsored items in the New feed and Right hand column; Español;
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/zbluebugz/filters-fb
+! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
+! Language: Español (Spanish)
+! Last modified: 07 Dec 2020 12:00 UTC
+! Expires: 3 days (update frequency)
+!
+! Legal stuff (T&C's) 
+! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! News feed
+facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Patrocinado"]:upward(div[role="feed"] > div)
+!
+! right-hand column: sponsored box.
+facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Patrocinado/i):upward(div[data-pagelet="RightRail"] > div)
