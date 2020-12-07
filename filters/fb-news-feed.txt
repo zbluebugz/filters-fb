@@ -11,10 +11,11 @@
 ! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
-! news feed: sponsored 
+! news feed: sponsored (3rd line - French)
 !- need both rules (fb sometimes insert an extra span ...)
 facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
 facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsorisé"]:upward(div[role="feed"] > div)
 !
 ! news feed: people you may know
 facebook.com###facebook div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
@@ -27,3 +28,4 @@ facebook.com###facebook div[role="feed"] div > span:has-text(/suggested for you/
 !
 ! right-hand column: sponsored
 facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
+facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsorisé/i):upward(div[data-pagelet="RightRail"] > div)
