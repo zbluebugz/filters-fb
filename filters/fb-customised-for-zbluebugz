@@ -21,8 +21,8 @@ facebook.com##div[aria-label="Stories"]
 ! right hand column (no contacts); collapses column and make middle column wider
 facebook.com##div[role="complementary"]
 !
-! groups - invite other people.
-!facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div)
+! groups - invite friends to this group.
+facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div)
 !
 ! news feed; post's main text (above picture); block out posts with certain keywords
 facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > span:has-text(/trump|varadkar|tubridy|late late|lgbtq|transgender/i):upward(div[role="feed"] > div)
