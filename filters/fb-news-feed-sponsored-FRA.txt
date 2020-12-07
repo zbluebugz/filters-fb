@@ -3,7 +3,7 @@
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
-! Language: Français
+! Language: Français (French)
 ! Last modified: 07 Dec 2020 12:00 UTC
 ! Expires: 3 days (update frequency)
 !
