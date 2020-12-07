@@ -20,23 +20,22 @@ Various filter lists for hiding certain elements in FB.
 The following filter lists filters out the sponsored posts and hides the sponsored box (right-hand column).
 Other languages can be created on request.
 
-- fb-news-feed-sponsored-DEU.txt (Deutsche)
+- fb-news-feed-sponsored-DE.txt (Deutsche)
   - hides sponsored posts and sponsored box
   - Language: Deutsche (German)
  
 - fb-news-feed-sponsored-EN.txt (English)
   - hides sponsored posts and sponsored box
   - Language: English
+   
+- fb-news-feed-sponsored-ES.txt (Español)
+  - hides sponsored posts and sponsored box
+  - Language: Español (Spanish)
   
-- fb-news-feed-sponsored-FRA.txt (Français)
+- fb-news-feed-sponsored-FR.txt (Français)
   - hides sponsored posts and sponsored box
   - Language: Français (French)
   
-- fb-news-feed-sponsored-FRA.txt (Français)
-  - hides sponsored posts and sponsored box
-  - Language: Français (French)
-  
-- fb-news-feed-sponsored-NLD.txt (Dutch)
+- fb-news-feed-sponsored-NL.txt (Dutch)
   - hides sponsored posts and sponsored box
   - Language: Dutch
-    
