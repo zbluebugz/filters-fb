@@ -36,5 +36,5 @@ facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:n
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/recent ad activity/i)
 !
 ! Top menu bar: video/watch, marketplace
-facebook.com##div[role="banner"] [aria-label="Watch"]:upward(li)
+facebook.com##div[role="banner"] a[href="/watch/"]:upward(li)
 facebook.com##div[role="banner"] [aria-label="Marketplace"]:upward(li)
