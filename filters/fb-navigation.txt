@@ -37,4 +37,4 @@ facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:n
 !
 ! Top menu bar: video/watch, marketplace
 facebook.com##div[role="banner"] a[href="/watch/"]:upward(li)
-facebook.com##div[role="banner"] [aria-label="Marketplace"]:upward(li)
+!facebook.com##div[role="banner"] [aria-label="Marketplace"]:upward(li)
