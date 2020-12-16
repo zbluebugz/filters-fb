@@ -33,6 +33,7 @@ facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:n
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/oculus/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/offers/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/ads/i)
+facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/ad centre/i)
 facebook.com###facebook div[data-pagelet="LeftRail"]> div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul> li:has-text(/recent ad activity/i)
 !
 ! Top menu bar: video/watch, marketplace
