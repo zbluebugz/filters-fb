@@ -13,9 +13,9 @@
 !
 ! news feed: sponsored (3rd line - French)
 !- need both rules (fb sometimes insert an extra span ...)
-facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
-facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
-facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsorisé"]:upward(div[role="feed"] > div)
+!facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+!facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+!facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsorisé"]:upward(div[role="feed"] > div)
 !
 ! news feed: people you may know
 facebook.com###facebook div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
