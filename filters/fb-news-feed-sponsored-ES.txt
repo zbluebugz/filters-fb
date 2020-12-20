@@ -12,7 +12,9 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
 ! News feed
-facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Patrocinado"]:upward(div[role="feed"] > div)
+!facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Patrocinado"]:upward(div[role="feed"] > div)
+! - revised rule for blocking sponsored posts - based on html code structure.
+facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div)
 !
 ! right-hand column: sponsored box.
 facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Patrocinado/i):upward(div[data-pagelet="RightRail"] > div)
