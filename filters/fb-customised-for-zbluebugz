@@ -25,10 +25,10 @@ facebook.com##div[role="complementary"]
 facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div)
 !
 ! news feed; post's main text (above picture); block out posts with certain keywords
-facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > span:has-text(/conor mcgregor|brown's boys|all-ireland|hurley|hurling|trump|varadkar|tanaiste|tubridy|late late|lgbtq|transgender|deely|deeley|nphet/i):upward(div[role="feed"] > div)
+facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > span:has-text(/conor mcgregor|dee devlin|ufc|brown's boys|all-ireland|hurley|hurling|trump|varadkar|tanaiste|tubridy|late late|lgbtq|transgender|deely|deeley|nphet/i):upward(div[role="feed"] > div)
 !
 ! news feed; post article text (below picture); does not hide comments; block out posts with certain keywords
-facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div > a > div > div > div > div:nth-of-type(2) > div > div span:has-text(/conor mcgregor|brown's boys|all-ireland|hurley|hurling|trump|varadkar|tanaiste|tubridy|late late|lgbtq|transgender|deely|deeley|nphet/i):upward(div[role="feed"] > div)
+facebook.com##div[role="feed"] > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div > a > div > div > div > div:nth-of-type(2) > div > div span:has-text(/conor mcgregor|dee devlin|ufc|brown's boys|all-ireland|hurley|hurling|trump|varadkar|tanaiste|tubridy|late late|lgbtq|transgender|deely|deeley|nphet/i):upward(div[role="feed"] > div)
 !
 ! news feed; "Coronavrius (COVID-19) information" posts; These kind of posts are "informational" types. Locates the keywords @ top of post (above poster's name)
 facebook.com###facebook div[role="feed"] > div div[role="article"] > div > div > div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > div > div > span:has-text(/Coronavirus \(COVID-19\) information/):upward(div[role="feed"] > div)
