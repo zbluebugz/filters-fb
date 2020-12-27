@@ -11,14 +11,13 @@
 ! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
-! news feed: sponsored (3rd line - French)
+! news feed: sponsored
 !- need both rules (fb sometimes insert an extra span ...)
-!----facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
-!facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
-!facebook.com###facebook div[role="feed"] div > span > span > a > span > span[aria-label="Sponsorisé"]:upward(div[role="feed"] > div)
-! - revised rule for hiding sponsored posts; based on html structure;
-! - does not work on group feed - it hides some of them ...
-!-----facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div)
+!facebook.com###facebook div[role="feed"] div > span > span > a > span[aria-label="Sponsored"]:upward(div[role="feed"] > div)
+! :: revised rule for hiding sponsored posts; based on html structure;
+! news feed: sponsored (news feed column only - does not apply to group feeds)
+! -- need the data-pagelet to work properly.
+facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
 !
 ! news feed: people you may know
 facebook.com###facebook div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
