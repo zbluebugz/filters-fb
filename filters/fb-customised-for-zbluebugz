@@ -19,7 +19,7 @@ facebook.com###facebook div[data-pagelet="VideoChatHomeUnit"]
 facebook.com##div[aria-label="Stories"]
 !
 ! right hand column (no contacts); collapses column and make middle column wider
-facebook.com##div[role="complementary"]
+! - enable on 02/01/21 - facebook.com##div[role="complementary"]
 !
 ! groups - invite friends to this group.
 facebook.com##div[role="feed"] > div span:has-text(/Invite friends to this group/i):upward(div[role="feed"] > div)
@@ -35,6 +35,3 @@ facebook.com###facebook div[role="feed"] > div div[role="article"] > div > div >
 !
 ! news feed; Paid partnership
 facebook.com###facebook div[role="feed"] div > span > span > a:has-text(/Paid partnership/i):upward(div[role="feed"] > div)
-
-
-  
