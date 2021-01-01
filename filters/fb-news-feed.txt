@@ -17,7 +17,7 @@
 ! :: revised rule for hiding sponsored posts; based on html structure;
 ! news feed: sponsored (news feed column only - does not apply to group feeds)
 ! -- need the data-pagelet to work properly.
-! *** enable again once testing is done ***facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
+facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
 ! -- another "sponsored", but with slightly different structure - have to find the words this time round...
 facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > div:has-text(/Sponsored · Paid for by/i):upward(div[data-pagelet^="FeedUnit"])
 !
