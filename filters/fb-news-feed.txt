@@ -31,8 +31,9 @@ facebook.com###facebook div[role="feed"] div > span:has-text(/Videos just for yo
 facebook.com###facebook div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
 !
 ! right-hand column: sponsored
-facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
-facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsorisé/i):upward(div[data-pagelet="RightRail"] > div)
+! facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
+facebook.com###facebook div[data-pagelet="RightRail"] > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
+
 !
 ! watch feed: sponsored
 www.facebook.com##div[data-pagelet^="MainFeed"] > div > div > div > div > div > div > div > div > div div:nth-of-type(2) > div >div:nth-of-type(2) > span > a > span:upward(div[data-pagelet^="MainFeed"] > div > div > div > div)
