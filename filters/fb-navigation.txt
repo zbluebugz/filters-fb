@@ -14,7 +14,7 @@
 ! Hides all, except for: <name>, Most Recent, Groups, Pages, Weather 
 !
 ! Left side navigation
-facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/coronavrius_info"]:upward([data-pagelet="LeftRail"] li)
+facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/coronavirus_info/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/friends/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/marketplace/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/watch/"]:upward([data-pagelet="LeftRail"] li)
