@@ -24,7 +24,7 @@ facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/memories/"]:upwar
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/pages/creation/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/ad_campaign/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/climatescienceinfo/"]:upward([data-pagelet="LeftRail"] li)
-facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/friends/"]:upward([data-pagelet="LeftRail"] li)
+facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/crisisresponse/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/community_help/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/facebook_pay/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="favorites"]:upward([data-pagelet="LeftRail"] li)
