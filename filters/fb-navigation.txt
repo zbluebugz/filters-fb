@@ -32,6 +32,8 @@ facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/fundraisers/"]:up
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/games/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/gaming/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/jobs/"]:upward([data-pagelet="LeftRail"] li)
+facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/messages/"]:upward([data-pagelet="LeftRail"] li)
+facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/weather/"]:upward([data-pagelet="LeftRail"] li)
 ! oculus
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/270208243080697/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/offers/"]:upward([data-pagelet="LeftRail"] li)
