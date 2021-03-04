@@ -26,4 +26,3 @@ Filter list for hiding certain tweets in Twitter
 
 #twitter-feed.txt
   - hide tweets based on keywords
-  -
