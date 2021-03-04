@@ -1,4 +1,4 @@
-# filters-fb;
+# filters-fb; 
 Various filter lists for hiding certain elements in FB.
 
 #fb-news-feed.txt
@@ -21,3 +21,9 @@ Various filter lists for hiding certain elements in FB.
   - hides news feed posts I don't wanna see/know (based on keywords)- 
   - informational posts (e.g. coronavirus)
   
+# filters-twitter;
+Filter list for hiding certain tweets in Twitter
+
+#twitter-feed.txt
+  - hide tweets based on keywords
+  -
