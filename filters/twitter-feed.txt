@@ -1,18 +1,18 @@
 ! Title: filters-twitter - tweet feed list
-	! Description: Block certain items in the Twitter feed
-	! License: http://creativecommons.org/licenses/by/3.0/
-	! Homepage: https://github.com/zbluebugz/filters-fb
-	! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
-	!
-	! Last modified: 04 Mar 2021 18:00 UTC
-	! Expires: 3 days (update frequency)
-	!
-	! Legal stuff (T&C's) 
-	! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
-	! By downloading or viewing, or using this list, you are accepting these terms and the license.
-	!
-	! tweet posts - top half of post (before picture)
-  twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:has-text(/katie price|Jurgen Klopp|rodrigo|premier league|tiger woods/i):upward(11)
-  !
-  ! tweet posts - bototm half of post (including picture)
-  !twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:has-text(/jo johnson|ifab/i):upward(11)
+! Description: Block certain items in the Twitter feed
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/zbluebugz/filters-fb
+! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
+!
+! Last modified: 04 Mar 2021 18:25 UTC
+! Expires: 3 days (update frequency)
+!
+! Legal stuff (T&C's) 
+! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! tweet posts - top half of post (before picture)
+twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:has-text(/katie price|Jurgen Klopp|rodrigo|premier league|tiger woods/i):upward(11)
+!
+! tweet posts - bototm half of post (including picture)
+twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:has-text(/jo johnson|ifab/i):upward(11)
