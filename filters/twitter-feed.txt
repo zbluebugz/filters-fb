@@ -12,7 +12,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
 ! tweet posts - top half of post (before picture)
-twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:has-text(/Meghan Markle|katie price|Jurgen Klopp|rodrigo|premier league|tiger woods|Republic of Ireland manager|pro-trump/i):upward(11)
+twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:has-text(/Meghan and Harry|Meghan Markle|katie price|Jurgen Klopp|rodrigo|premier league|tiger woods|Republic of Ireland manager|pro-trump/i):upward(11)
 !
 ! tweet posts - bototm half of post (including picture)
 twitter.com##[data-testid="tweet"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:has-text(/jo johnson|ifab/i):upward(11)
