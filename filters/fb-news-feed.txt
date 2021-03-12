@@ -21,16 +21,16 @@ facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span
 facebook.com###facebook div[role="feed"] div > span > span > a:has-text(/Paid partnership/i):upward(div[role="feed"] > div)
 !
 ! news feed: people you may know
-facebook.com###facebook div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
+facebook.com##div[role="feed"] div > span:has-text(/People you may know/i):upward(div[role="feed"] > div)
 !
 ! news feed: videos just for you 
-facebook.com###facebook div[role="feed"] div > span:has-text(/Videos just for you/i):upward(div[role="feed"] > div)
+facebook.com##div[role="feed"] div > span:has-text(/Videos just for you/i):upward(div[role="feed"] > div)
 !
 ! news feed: suggested for you  
-facebook.com###facebook div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
+facebook.com##div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
 !
 ! right-hand column: sponsored
-! facebook.com###facebook div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
+! facebook.com##div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
 ! --- enable after testing is done -- facebook.com##div[data-pagelet="RightRail"] > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
 !
 ! watch feed: sponsored
