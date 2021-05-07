@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
-! Last modified: 06 Dec 2020 21:00 UTC
+! Last modified: 08 May 2021 00:58 UTC
 ! Expires: 7 days (update frequency)
 !
 ! Legal stuff (T&C's) 
@@ -34,6 +34,7 @@ facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/gaming/"]:upward(
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/jobs/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/messages/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/weather/"]:upward([data-pagelet="LeftRail"] li)
+facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/emotional_health/"]:upward([data-pagelet="LeftRail"] li)
 ! oculus
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/270208243080697/"]:upward([data-pagelet="LeftRail"] li)
 facebook.com###facebook div[data-pagelet="LeftRail"] a[href*="/offers/"]:upward([data-pagelet="LeftRail"] li)
