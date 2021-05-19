@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
-! Last modified: 24 Apr 2021 14:40:00 UTC
+! Last modified: 19 May 2021 21:04:00 UTC
 ! Expires: 7 days (update frequency)
 !
 ! Legal stuff (T&C's) 
@@ -12,7 +12,7 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
 ! news feed: sponsored (news feed column only - does not apply to group feeds)
-facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
+!--- 19/05/2021 ---facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
 !
 ! news feed: sponsored, but with slightly different structure - have to find the words this time round...
 facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > div:has-text(/Sponsored · Paid for by/i):upward(div[data-pagelet^="FeedUnit"])
