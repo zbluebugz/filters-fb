@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
-! Last modified: 19 May 2021 21:04:00 UTC
+! Last modified: 06 June 2021 00:42:00 UTC
 ! Expires: 7 days (update frequency)
 !
 ! Legal stuff (T&C's) 
@@ -30,6 +30,7 @@ facebook.com##div[role="feed"] div > span:has-text(/Videos just for you/i):upwar
 facebook.com##div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
 !
 ! news feed: Suggested Page to follow
+facebook.com##div[role="feed"] div > span:has-text(/Suggested Pages/i):upward(div[role="feed"] > div)
 facebook.com##div[role="feed"] div > span:has-text(/Suggested Page to follow/i):upward(div[role="feed"] > div)
 ! right-hand column: sponsored
 ! facebook.com##div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
