@@ -4,18 +4,15 @@
 ! Homepage: https://github.com/zbluebugz/filters-fb
 ! Reporting Issues: https://github.com/zbluebugz/filters-fb/issues
 !
-! Last modified: 06 June 2021 00:42:00 UTC
+! Last modified: 11 June 2021 12:25:00 UTC
 ! Expires: 7 days (update frequency)
 !
 ! Legal stuff (T&C's) 
 ! In no event shall the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
-! news feed: sponsored (news feed column only - does not apply to group feeds)
-!--- 19/05/2021 ---facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a > span:upward(div[data-pagelet^="FeedUnit"])
-!
-! news feed: sponsored, but with slightly different structure - have to find the words this time round...
-facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > div:has-text(/Sponsored · Paid for by/i):upward(div[data-pagelet^="FeedUnit"])
+! news feed: sponsored
+facebook.com##div[role="feed"] > div[data-pagelet^="FeedUnit"] div > span > span > a[aria-label="Sponsored"]:upward(div[data-pagelet^="FeedUnit"])
 !
 ! news feed; Paid partnership
 facebook.com###facebook div[role="feed"] div > span > span > a:has-text(/Paid partnership/i):upward(div[role="feed"] > div)
@@ -29,12 +26,8 @@ facebook.com##div[role="feed"] div > span:has-text(/Videos just for you/i):upwar
 ! news feed: suggested for you  
 facebook.com##div[role="feed"] div > span:has-text(/suggested for you/i):upward(div[role="feed"] > div)
 !
-! news feed: Suggested Page to follow
-facebook.com##div[role="feed"] div > span:has-text(/Suggested Pages/i):upward(div[role="feed"] > div)
-facebook.com##div[role="feed"] div > span:has-text(/Suggested Page to follow/i):upward(div[role="feed"] > div)
-! right-hand column: sponsored
-! facebook.com##div[data-pagelet="RightRail"] > div > div > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
-! --- enable after testing is done -- facebook.com##div[data-pagelet="RightRail"] > div h3 span:has-text(/Sponsored/i):upward(div[data-pagelet="RightRail"] > div)
+! news feed: Suggested Page(s) to follow
+facebook.com##div[role="feed"] div > span:has-text(/Suggested Page/i):upward(div[role="feed"] > div)
 !
-! watch feed: sponsored
-www.facebook.com##div[data-pagelet^="MainFeed"] > div > div > div > div > div > div > div > div > div div:nth-of-type(2) > div >div:nth-of-type(2) > span > a > span:upward(div[data-pagelet^="MainFeed"] > div > div > div > div)
+! watch(video) feed: sponsored
+facebook.com##div[data-pagelet^="MainFeed"] > div > div > div > div > div > div > div > div > div div:nth-of-type(2) > div >div:nth-of-type(2) > span > a > span:upward(div[data-pagelet^="MainFeed"] > div > div > div > div)
